@@ -1,0 +1,47 @@
+@import 'utils.scss';
+@import 'blocks.scss';
+@import 'buttons.scss';
+
+* {
+  margin: auto 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.5rem;
+  background-color: rgb(151, 137, 249);
+}
+
+
+
+@font-face {
+  font-family: BebasNeue-Light;
+  src: url('../fonts/bebasneue/BebasNeue-Light.ttf');
+}
+
+@font-face {
+  font-family: BebasNeue-Bold;
+  src: url('../fonts/bebasneue/BebasNeue-Bold.ttf');
+}
+
+@font-face {
+  font-family: BebasNeue-Thin;
+  src: url('../fonts/bebasneue/BebasNeue-Thin.ttf');
+}
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url('../fonts/bebasneue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url('../fonts/Roboto-Light.ttf');
+}

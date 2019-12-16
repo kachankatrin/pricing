@@ -1,0 +1,138 @@
+.container-flex {
+  .block {
+    position: relative;
+    background-color: #f5f4f9;
+    width: 30%;
+    height: 61rem;
+    transition: all 0.3s;
+    header {
+      margin-top: 12%;
+      margin-bottom: 3%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      color: rgba(24, 24, 24, 255);
+      text-align: left;
+      h2 {
+        font-family: BebasNeue-Thin;
+        font-size: 8rem;
+        .dol {
+          font-size: 3.2rem;
+          vertical-align: top;
+        }
+        .hr {
+          font-family: BebasNeue-Light;
+          font-size: 2.1rem;
+          vertical-align: bottom;
+        }
+      }
+      h3 {
+        font-family: BebasNeue-Regular;
+        font-size: 3.2rem;
+      }
+    }
+    main {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 12%;
+      height: 67%;
+      line-height: 2.5;
+      background-color: #ffffff;
+      color: rgba(24, 24, 24, 255);
+      text-align: left;
+      clip-path: circle(62.9% at 50% 63%);
+      span {
+        font-size: 4rem;
+      }
+      ul {
+        font-family: Roboto-Light;
+        font-size: 2.1rem;
+      }
+    }
+    div p {
+      padding: 14% 16%;
+      font-family: Roboto-Light;
+      font-size: 1.5rem;
+      color: rgba(169, 169, 169, 255);
+      text-align: left;
+    }
+    &:hover{
+      transform: scale(1.1);
+    }
+    &:nth-child(2){
+      position: relative;
+      .circle {
+        position: absolute;
+        top: 1%;
+        right: 0%;
+        .S {
+          transform: translateX(54%);
+          height: .5rem;
+          width: .5rem;
+          border-radius: 50%;
+          background-color: rgb(253, 141, 123);
+        }
+        .M {
+         transform: translate(-75%, 20%);
+          height: 1.2rem;
+          width: 1.2rem;
+          border-radius: 50%;
+          background-color: rgb(253, 141, 123);
+        }
+        .L-P {
+          position: absolute;
+          display: flex;
+          transform: translate(-35%, -8%);
+          font-family: BebasNeue-Regular;
+          line-height: 3.6rem;
+          color: rgb(255, 255, 255);
+          z-index: 100;
+          .L {
+            font-size: 2.4rem;
+            color: rgba(255, 255, 255, 255);
+            letter-spacing: 0.2rem;
+            text-align: center;
+            height: 4.6rem;
+            width: 4.6rem;
+            border-radius: 50%;
+            background-color: rgb(253, 141, 123);
+            padding: 0.9rem 2rem;
+          }
+          .pop {
+            font-size: 1.6rem;
+            letter-spacing: 0.1rem;
+            background-color: hsl(180, 4%, 24%);
+            text-align: center;
+            border-radius: 3rem;
+            margin: 2% 6%;
+            padding: 2% 20%;
+          }
+          .pop::after {
+            position: absolute;
+            content: '';
+            left: 4.9rem;
+            top: 1.4rem;
+            border-bottom: 1rem solid transparent;
+            border-top: 1rem solid transparent;
+            border-right: 1.1rem solid hsl(180, 4%, 24%);
+          }
+        }
+      }
+      height: 69rem;
+      .btn {
+        background-color: rgb(253, 141, 123);
+        bottom: 7.5rem;
+      }
+      main {
+        span {
+          font-size: 4.8rem;
+        }
+      }
+    }
+  }
+  &:hover .block:not(:hover) {
+    transform: scale(0.9);
+  }
+}
